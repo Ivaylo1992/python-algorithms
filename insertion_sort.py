@@ -5,7 +5,7 @@ def insertion_sort(arr):
         current_num = arr[i]
 
         j = i - 1
-
+        
         while j >= 0 and current_num < arr[j]:
             arr[j + 1] = arr[j]
             j -= 1
