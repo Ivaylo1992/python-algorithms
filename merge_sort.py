@@ -1,5 +1,6 @@
 def merge_sort(lst):
 
+    
     if len(lst) > 1:
         mid = len(lst) // 2
         left_half = lst[:mid]
