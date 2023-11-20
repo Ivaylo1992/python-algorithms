@@ -8,7 +8,7 @@ def bubble(list_a):
             if list_a[i] > list_a[i+1]:
                 sorted_lst = False
                 list_a[i], list_a[i + 1] = list_a[i + 1], list_a[i]
-
+                
     return list_a
 
 
