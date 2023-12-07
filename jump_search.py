@@ -11,7 +11,7 @@ def jump_search(numbers, val):
         if numbers[left] <= val <= numbers[right]:
             break
         left += jump
-
+        
     if left >= length or numbers[left] > val:
         return -1
 
